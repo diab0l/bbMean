@@ -1,0 +1,29 @@
+bbMean ToDo
+- redo build system to be more VS friendly while retaining the old style
+
+- merge in bbclean sources
+- merge in bbmien sources
+- merge in bbleanmod sources
+- merge in bbZeroX sources
+
+- bb hangs when an application hangs
+  - find out why
+  - fix it
+
+- icons load slowly
+  - defer loading
+  - create notification mechanism
+  - gracefully kill thread if bb exits or all requesting menus are closed
+
+- alternative workspace method sometimes eats windows
+
+- bbleanskin
+  - try to detect custom window title
+  - add menu entries "exclude this window" and "exclude this application"
+
+- bbEdgeFlip
+  - dragging maximized windows restores them
+
+- workspaces
+  - make switching more stable (focused window changing, etc)
+  - make workspace-aware alt-tab thingy

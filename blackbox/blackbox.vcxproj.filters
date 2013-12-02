@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\build">
+      <UniqueIdentifier>{94c978f8-cc9a-4e48-ae15-d9d0ea9c8a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blackbox">
+      <UniqueIdentifier>{03ba348c-18f0-4cf1-bdae-a5750d30fddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lib">
+      <UniqueIdentifier>{c9eb11dd-0de3-44d5-863d-bedea25b5fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blackbox\Menu">
+      <UniqueIdentifier>{2bffabee-b528-4d15-97b2-7f3f74fecfb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\plugins">
+      <UniqueIdentifier>{f311b0cb-9b7a-4a41-866b-6eb5ada34959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\plugins\bbPlugin">
+      <UniqueIdentifier>{d6f0f705-3bf3-40d9-8416-14eeb0793726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blackbox\Hooks">
+      <UniqueIdentifier>{a0a393c1-fd98-49b7-8747-524217d02bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\build\fuzzydoc">
+      <UniqueIdentifier>{fb6b1c52-3192-4a0c-9627-9a9bc085ad5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\docs">
+      <UniqueIdentifier>{f5c06e83-2ad4-42de-9c02-c3813227a75a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="makefile">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="build\makefile">
+      <Filter>Source Files\build</Filter>
+    </None>
+    <None Include="build\makefile.inc">
+      <Filter>Source Files\build</Filter>
+    </None>
+    <None Include="build\makefile-msc.inc">
+      <Filter>Source Files\build</Filter>
+    </None>
+    <None Include="cmdfix.sh" />
+    <None Include="build\makefile-msc64.inc">
+      <Filter>Source Files\build</Filter>
+    </None>
+    <None Include="build\version.inc">
+      <Filter>Source Files\build</Filter>
+    </None>
+    <None Include="blackbox\Blackbox.ico">
+      <Filter>Source Files\blackbox</Filter>
+    </None>
+    <None Include="blackbox\makefile">
+      <Filter>Source Files\blackbox</Filter>
+    </None>
+    <None Include="blackbox\nls-c.txt">
+      <Filter>Source Files\blackbox</Filter>
+    </None>
+    <None Include="lib\makefile">
+      <Filter>Source Files\lib</Filter>
+    </None>
+    <None Include="blackbox\Hooks\makefile">
+      <Filter>Source Files\blackbox\Hooks</Filter>
+    </None>
+    <None Include="build\fuzzydoc\fuzzydoc.txt">
+      <Filter>Source Files\build\fuzzydoc</Filter>
+    </None>
+    <None Include="build\fuzzydoc\makefile">
+      <Filter>Source Files\build\fuzzydoc</Filter>
+    </None>
+    <None Include="build\fuzzydoc\tpl_frame.htm">
+      <Filter>Source Files\build\fuzzydoc</Filter>
+    </None>
+    <None Include="build\fuzzydoc\tpl_frame_body.htm">
+      <Filter>Source Files\build\fuzzydoc</Filter>
+    </None>
+    <None Include="build\fuzzydoc\tpl_frame_toc.htm">
+      <Filter>Source Files\build\fuzzydoc</Filter>
+    </None>
+    <None Include="build\fuzzydoc\tpl_simple.htm">
+      <Filter>Source Files\build\fuzzydoc</Filter>
+    </None>
+    <None Include="docs\bblean.txt">
+      <Filter>Source Files\docs</Filter>
+    </None>
+    <None Include="docs\bblean_logo.png">
+      <Filter>Source Files\docs</Filter>
+    </None>
+    <None Include="docs\bblean_style.css">
+      <Filter>Source Files\docs</Filter>
+    </None>
+    <None Include="docs\makefile">
+      <Filter>Source Files\docs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="blackbox\bbversion.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\BB.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\BBApi.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\BBSendData.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\BBVWM.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\BImage.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\Desk.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\MessageManager.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\PluginManager.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\Settings.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\Stylestruct.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\Toolbar.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\Tray.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\win0x500.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\Workspaces.h">
+      <Filter>Source Files\blackbox</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\bbrc.h">
+      <Filter>Source Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\bbroot.h">
+      <Filter>Source Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\bbshell.h">
+      <Filter>Source Files\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\Menu\Menu.h">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="blackbox\Menu\MenuMaker.h">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\bbPlugin\bbPlugin.h">
+      <Filter>Source Files\plugins\bbPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\bbPlugin\drawico.h">
+      <Filter>Source Files\plugins\bbPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\bbPlugin\tooltips.h">
+      <Filter>Source Files\plugins\bbPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\bblib.h">
+      <Filter>Source Files\lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="blackbox\BBApi.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\BBRoot.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\BBVWM.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\BImage.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Blackbox.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\ConfigMenu.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Desk.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\DesktopMenu.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\MessageManager.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\PluginManager.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Settings.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Toolbar.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Tray.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Utils.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Workspaces.cpp">
+      <Filter>Source Files\blackbox</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\bbrc.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\bbroot.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\bools.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\colors.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\m_alloc.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\numbers.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\paths.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\pidl.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\strings.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\tinylist.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\tokenize.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\winutils.c">
+      <Filter>Source Files\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Menu\CommandItem.cpp">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Menu\Contextmenu.cpp">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Menu\Dragsource.cpp">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Menu\Droptarget.cpp">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Menu\FolderItem.cpp">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Menu\Menu.cpp">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Menu\MenuItem.cpp">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Menu\MenuMaker.cpp">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Menu\SpecialFolder.cpp">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Menu\TitleItem.cpp">
+      <Filter>Source Files\blackbox\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\bbPlugin\bbPlugin.cpp">
+      <Filter>Source Files\plugins\bbPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\bbPlugin\drawico.cpp">
+      <Filter>Source Files\plugins\bbPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\bbPlugin\sysmenu.cpp">
+      <Filter>Source Files\plugins\bbPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\bbPlugin\tooltips.cpp">
+      <Filter>Source Files\plugins\bbPlugin</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Hooks\deskhook.cpp">
+      <Filter>Source Files\blackbox\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="blackbox\Hooks\trayhook.cpp">
+      <Filter>Source Files\blackbox\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="build\fuzzydoc\fuzzydoc.c">
+      <Filter>Source Files\build\fuzzydoc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

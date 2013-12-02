@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="blackbox\Blackbox.ico" />
+    <None Include="blackbox\Hooks\makefile" />
+    <None Include="blackbox\makefile" />
+    <None Include="blackbox\nls-c.txt" />
+    <None Include="build\fuzzydoc\fuzzydoc.txt" />
+    <None Include="build\fuzzydoc\makefile" />
+    <None Include="build\fuzzydoc\tpl_frame.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="build\fuzzydoc\tpl_frame_body.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="build\fuzzydoc\tpl_frame_toc.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="build\fuzzydoc\tpl_simple.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="build\makefile" />
+    <None Include="build\makefile-msc.inc" />
+    <None Include="build\makefile-msc64.inc" />
+    <None Include="build\makefile.inc" />
+    <None Include="build\version.inc" />
+    <None Include="cmdfix.sh" />
+    <None Include="docs\bblean.txt" />
+    <None Include="docs\bblean_logo.png" />
+    <None Include="docs\bblean_style.css" />
+    <None Include="docs\makefile" />
+    <None Include="lib\makefile" />
+    <None Include="makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="blackbox\BB.h" />
+    <ClInclude Include="blackbox\BBApi.h" />
+    <ClInclude Include="blackbox\BBSendData.h" />
+    <ClInclude Include="blackbox\bbversion.h" />
+    <ClInclude Include="blackbox\BBVWM.h" />
+    <ClInclude Include="blackbox\BImage.h" />
+    <ClInclude Include="blackbox\Desk.h" />
+    <ClInclude Include="blackbox\Menu\Menu.h" />
+    <ClInclude Include="blackbox\Menu\MenuMaker.h" />
+    <ClInclude Include="blackbox\MessageManager.h" />
+    <ClInclude Include="blackbox\PluginManager.h" />
+    <ClInclude Include="blackbox\Settings.h" />
+    <ClInclude Include="blackbox\Stylestruct.h" />
+    <ClInclude Include="blackbox\Toolbar.h" />
+    <ClInclude Include="blackbox\Tray.h" />
+    <ClInclude Include="blackbox\win0x500.h" />
+    <ClInclude Include="blackbox\Workspaces.h" />
+    <ClInclude Include="lib\bblib.h" />
+    <ClInclude Include="lib\bbrc.h" />
+    <ClInclude Include="lib\bbroot.h" />
+    <ClInclude Include="lib\bbshell.h" />
+    <ClInclude Include="plugins\bbPlugin\bbPlugin.h" />
+    <ClInclude Include="plugins\bbPlugin\drawico.h" />
+    <ClInclude Include="plugins\bbPlugin\tooltips.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="blackbox\BBApi.cpp" />
+    <ClCompile Include="blackbox\BBRoot.cpp" />
+    <ClCompile Include="blackbox\BBVWM.cpp" />
+    <ClCompile Include="blackbox\BImage.cpp" />
+    <ClCompile Include="blackbox\Blackbox.cpp" />
+    <ClCompile Include="blackbox\ConfigMenu.cpp" />
+    <ClCompile Include="blackbox\Desk.cpp" />
+    <ClCompile Include="blackbox\DesktopMenu.cpp" />
+    <ClCompile Include="blackbox\Hooks\deskhook.cpp" />
+    <ClCompile Include="blackbox\Hooks\trayhook.cpp" />
+    <ClCompile Include="blackbox\Menu\CommandItem.cpp" />
+    <ClCompile Include="blackbox\Menu\Contextmenu.cpp" />
+    <ClCompile Include="blackbox\Menu\Dragsource.cpp" />
+    <ClCompile Include="blackbox\Menu\Droptarget.cpp" />
+    <ClCompile Include="blackbox\Menu\FolderItem.cpp" />
+    <ClCompile Include="blackbox\Menu\Menu.cpp" />
+    <ClCompile Include="blackbox\Menu\MenuItem.cpp" />
+    <ClCompile Include="blackbox\Menu\MenuMaker.cpp" />
+    <ClCompile Include="blackbox\Menu\SpecialFolder.cpp" />
+    <ClCompile Include="blackbox\Menu\TitleItem.cpp" />
+    <ClCompile Include="blackbox\MessageManager.cpp" />
+    <ClCompile Include="blackbox\PluginManager.cpp" />
+    <ClCompile Include="blackbox\Settings.cpp" />
+    <ClCompile Include="blackbox\Toolbar.cpp" />
+    <ClCompile Include="blackbox\Tray.cpp" />
+    <ClCompile Include="blackbox\Utils.cpp" />
+    <ClCompile Include="blackbox\Workspaces.cpp" />
+    <ClCompile Include="build\fuzzydoc\fuzzydoc.c" />
+    <ClCompile Include="lib\bbrc.c" />
+    <ClCompile Include="lib\bbroot.c" />
+    <ClCompile Include="lib\bools.c" />
+    <ClCompile Include="lib\colors.c" />
+    <ClCompile Include="lib\m_alloc.c" />
+    <ClCompile Include="lib\numbers.c" />
+    <ClCompile Include="lib\paths.c" />
+    <ClCompile Include="lib\pidl.c" />
+    <ClCompile Include="lib\strings.c" />
+    <ClCompile Include="lib\tinylist.c" />
+    <ClCompile Include="lib\tokenize.c" />
+    <ClCompile Include="lib\winutils.c" />
+    <ClCompile Include="plugins\bbPlugin\bbPlugin.cpp" />
+    <ClCompile Include="plugins\bbPlugin\drawico.cpp" />
+    <ClCompile Include="plugins\bbPlugin\sysmenu.cpp" />
+    <ClCompile Include="plugins\bbPlugin\tooltips.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{04537EB2-63B9-4F8B-9B8A-9549023590C5}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <OutDir>$(SolutionDir)\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>make COMPILER=msc INSTDIR=../Debug/x86</NMakeBuildCommandLine>
+    <NMakeOutput>blackbox.exe</NMakeOutput>
+    <NMakeCleanCommandLine>make clean</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>make clean; make COMPILER=msc INSTDIR=../Debug/x86 all</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <NMakeBuildCommandLine>make COMPILER=msc64 INSTDIR=../Debug/x64 DEBUG=1</NMakeBuildCommandLine>
+    <NMakeOutput>../Debug/x64/blackbox.exe</NMakeOutput>
+    <NMakeCleanCommandLine>make COMPILER=msc64 DEBUG=1 clean</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>make COMPILER=msc64 INSTDIR=../Debug/x64 DEBUG=1 clean all</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>_WIN64;WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>C:\Development_Marian\bbMean\blackbox\lib;C:\Development_Marian\bbMean\blackbox\blackbox;C:\Development_Marian\bbMean\blackbox\blackbox\Hooks;C:\Development_Marian\bbMean\blackbox\blackbox\Menu;C:\Development_Marian\bbMean\blackbox\plugins\bbPlugin;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>make COMPILER=msc INSTDIR=../Release/x86</NMakeBuildCommandLine>
+    <NMakeOutput>blackbox.exe</NMakeOutput>
+    <NMakeCleanCommandLine>make COMPILER=msc INSTDIR=../Release/x86 clean</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>make COMPILER=msc INSTDIR=../Release/x86 clean all</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <NMakeBuildCommandLine>make COMPILER=msc64 INSTDIR=../Release/x64</NMakeBuildCommandLine>
+    <NMakeOutput>blackbox.exe</NMakeOutput>
+    <NMakeCleanCommandLine>make COMPILER=msc64 INSTDIR=../Release/x64 clean</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>make COMPILER=msc64 INSTDIR=../Release/x64 clean all</NMakeReBuildCommandLine>
+    <NMakePreprocessorDefinitions>_WIN64;WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>C:\Development_Marian\bbMean\blackbox\lib;C:\Development_Marian\bbMean\blackbox\blackbox;C:\Development_Marian\bbMean\blackbox\blackbox\Hooks;C:\Development_Marian\bbMean\blackbox\blackbox\Menu;C:\Development_Marian\bbMean\blackbox\plugins\bbPlugin;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>
+    </NMakeForcedIncludes>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\bbIconBox">
+      <UniqueIdentifier>{3e8a0c46-0860-4e38-9e0d-06a219ce4645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bbSDK">
+      <UniqueIdentifier>{b1de6bd6-781c-40c1-9998-dff730fdcb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bbLeanBar">
+      <UniqueIdentifier>{8180cf32-f8b3-406c-8ce4-0c4085fcebdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bbLeanSkin">
+      <UniqueIdentifier>{f31449fd-7a86-4a7f-824e-b47d8a42da2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bbLeanSkin\engine">
+      <UniqueIdentifier>{12e0953b-6ea2-462f-93e9-a4d7c3d62a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bbAnalog">
+      <UniqueIdentifier>{1088ae98-be5a-4e23-8010-a92f8df074c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bbSlit">
+      <UniqueIdentifier>{8963730c-c18c-4c5a-8c2a-68b4f161627f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\blackbox\plugins\bbIconBox\bbIconBox.cpp">
+      <Filter>Source Files\bbIconBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbIconBox\DropTarget.cpp">
+      <Filter>Source Files\bbIconBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbIconBox\LoadFolder.cpp">
+      <Filter>Source Files\bbIconBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbIconBox\Utils.cpp">
+      <Filter>Source Files\bbIconBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbIconBox\winlist.cpp">
+      <Filter>Source Files\bbIconBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbSDK\bbSDK.cpp">
+      <Filter>Source Files\bbSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbLeanBar\bbLeanBar.cpp">
+      <Filter>Source Files\bbLeanBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbLeanBar\bbLeanClasses.cpp">
+      <Filter>Source Files\bbLeanBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbLeanBar\BuffBmp.cpp">
+      <Filter>Source Files\bbLeanBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbLeanBar\TinyDropTarg.cpp">
+      <Filter>Source Files\bbLeanBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbLeanSkin\bbLeanSkin.cpp">
+      <Filter>Source Files\bbLeanSkin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbLeanSkin\bbLeanSkinRun32.cpp">
+      <Filter>Source Files\bbLeanSkin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbLeanSkin\engine\hookctl.cpp">
+      <Filter>Source Files\bbLeanSkin\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbLeanSkin\engine\subclass.cpp">
+      <Filter>Source Files\bbLeanSkin\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbAnalog\bbAnalog.cpp">
+      <Filter>Source Files\bbAnalog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blackbox\plugins\bbSlit\bbSlit.cpp">
+      <Filter>Source Files\bbSlit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\blackbox\plugins\bbIconBox\bbIconBox.h">
+      <Filter>Source Files\bbIconBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blackbox\plugins\bbLeanSkin\engine\hookinfo.h">
+      <Filter>Source Files\bbLeanSkin\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blackbox\plugins\bbLeanSkin\engine\subclass.h">
+      <Filter>Source Files\bbLeanSkin\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="bbSDK.h">
+      <Filter>Source Files\bbSDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\blackbox\plugins\bbIconBox\makefile">
+      <Filter>Source Files\bbIconBox</Filter>
+    </None>
+    <None Include="..\blackbox\plugins\bbIconBox\readme.txt">
+      <Filter>Source Files\bbIconBox</Filter>
+    </None>
+    <None Include="..\blackbox\plugins\bbSDK\makefile-gcc">
+      <Filter>Source Files\bbSDK</Filter>
+    </None>
+    <None Include="..\blackbox\plugins\bbSDK\makefile-msc">
+      <Filter>Source Files\bbSDK</Filter>
+    </None>
+    <None Include="..\blackbox\plugins\bbSDK\readme.txt">
+      <Filter>Source Files\bbSDK</Filter>
+    </None>
+    <None Include="..\blackbox\plugins\bbLeanBar\makefile">
+      <Filter>Source Files\bbLeanBar</Filter>
+    </None>
+    <None Include="..\blackbox\plugins\bbLeanSkin\makefile">
+      <Filter>Source Files\bbLeanSkin</Filter>
+    </None>
+    <None Include="..\blackbox\plugins\bbAnalog\makefile">
+      <Filter>Source Files\bbAnalog</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\blackbox\plugins\bbAnalog\bbAnalog.rc">
+      <Filter>Source Files\bbAnalog</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
